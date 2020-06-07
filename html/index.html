@@ -9,19 +9,89 @@
   <head>
     <!-- 指定文档字符编码，一般用utf-8"就可以了 -->
     <meta charset="utf-8" />
+
     <!-- 指定文档所有链接的根URL，及打开方式 -->
     <base href="http://base.com" target="_blank" />
+
     <!-- 禁止页面缩放 -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>文档标题</title>
     <meta name="description" content="文档描述，一般在100字以内" />
     <meta name="keywords" content="文档关键字，以英文逗号分隔" />
-    <title>文档标题</title>
+
     <!-- 文檔與外部資源的關係，常用于外聯樣式，或favcicon等 -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" type="text/css" href="" />
+
     <!-- 內聯樣式 -->
     <style></style>
+
     <!-- 腳本內容，或外聯腳本 -->
-    <script></script>
+    <script src="index.js"></script>
+
     <!-- 其它更多，參考https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element -->
   </head>
+  <body>
+    <!-- 内容分区 -->
+
+    <!-- 提供某人某组织等等的联系信息 -->
+    <address></address>
+
+    <!-- 可独立分配可利用的 -->
+    <article></article>
+
+    <!-- 与页面内容无关，且可以被单独折分出来的 -->
+    <aside></aside>
+
+    <header></header>
+    <nav></nav>
+    <main></main>
+    <section></section>
+    <footer></footer>
+
+    <h1></h1>
+    <h2></h2>
+    <h3></h3>
+    <h4></h4>
+    <h5></h5>
+    <h6></h6>
+
+    <!-- 文本内容 -->
+
+    <!-- 表示引用的块级元素 -->
+    <blockquote></blockquote>
+
+    <!-- 描述列表 -->
+    <dl>
+      <dt></dt>
+      <dd></dd>
+    </dl>
+
+    <!-- 无序列表 -->
+    <ul>
+      <li></li>
+    </ul>
+
+    <!-- 有序列表 -->
+    <ol>
+      <li></li>
+    </ol>
+
+    <!-- 正文中独立部分，常表示引用图片、代码、插图、表格 -->
+    <figure>
+      <figcaption></figcaption>
+    </figure>
+
+    <hr />
+    <p></p>
+    <pre></pre>
+
+    <!-- 内联文本语义 -->
+
+    <a href="" target=""></a>
+
+    <!-- 用来表示缩写 -->
+    <abbr title=""></abbr>
+  </body>
 </html>
