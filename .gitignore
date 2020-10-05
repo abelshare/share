@@ -1,0 +1,7 @@
+#global
+.vscode
+
+
+# webpack
+webpack/**/node_modules
+webpack/**/dist
