@@ -1,0 +1,6 @@
+@import './iconfont.css';
+
+.hello {
+  color: red;
+  background-image: url(./icon.jpg);
+}
