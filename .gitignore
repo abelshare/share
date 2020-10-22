@@ -1,7 +1,12 @@
 #global
 .vscode
+/**/packge-lock.json
 
 
 # webpack
 webpack/**/node_modules
 webpack/**/dist
+
+# webpack5
+webpack5/**/node_modules
+webpack5/**/dist

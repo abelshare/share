@@ -78,4 +78,6 @@ module.exports = {
 }
 ```
 
-## 加载 data
+## 加载數據
+
+https://v4.webpack.docschina.org/guides/asset-management/
